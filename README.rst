@@ -57,9 +57,9 @@ Smart Contract
     from stabilaapi import Stabila
     from solc import compile_source
 
-    full_node = 'https://206.81.22.207'
-    solidity_node = 'https://206.81.22.207'
-    event_server = 'https://206.81.22.207'
+    full_node = 'https://api.stablilascan.org'
+    solidity_node = 'https://api.stablilascan.org'
+    event_server = 'https://api.stablilascan.org'
 
     stabila = Stabila(full_node=full_node,
             solidity_node=solidity_node,
@@ -112,9 +112,9 @@ Base Example
     logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
     logger = logging.getLogger()
 
-    full_node = 'https://206.81.22.207'
-    solidity_node = 'https://206.81.22.207'
-    event_server = 'https://206.81.22.207'
+    full_node = 'https://api.stablilascan.org'
+    solidity_node = 'https://api.stablilascan.org'
+    event_server = 'https://api.stablilascan.org'
 
     stabila = Stabila(full_node=full_node,
             solidity_node=solidity_node,
