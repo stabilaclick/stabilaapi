@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # --------------------------------------------------------------------
-# Copyright (c) iEXBase. All rights reserved.
+# Copyright (c) stabilaclick. All rights reserved.
 # Licensed under the MIT License.
 # See License.txt in the project root for license information.
 # --------------------------------------------------------------------
@@ -11,7 +11,7 @@
 
     Connect to the Stabila network.
 
-    :copyright: © 2019 by the iEXBase.
+    :copyright: © 2019 by the stabilaclick.
     :license: MIT License
 """
 

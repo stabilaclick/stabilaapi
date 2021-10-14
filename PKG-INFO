@@ -18,18 +18,18 @@ Description: ===================
         .. image:: https://img.shields.io/pypi/pyversions/stabilaapi.svg
             :target: https://pypi.python.org/pypi/stabilaapi
         
-        .. image:: https://api.travis-ci.com/iexbase/stabila-api-python.svg?branch=master
-            :target: https://travis-ci.com/iexbase/stabila-api-python
+        .. image:: https://api.travis-ci.com/stabilaclick/stabila-api-python.svg?branch=master
+            :target: https://travis-ci.com/stabilaclick/stabila-api-python
             
-        .. image:: https://img.shields.io/github/issues/iexbase/stabila-api-python.svg
-            :target: https://github.com/iexbase/stabila-api-python/issues
+        .. image:: https://img.shields.io/github/issues/stabilaclick/stabila-api-python.svg
+            :target: https://github.com/stabilaclick/stabila-api-python/issues
             
-        .. image:: https://img.shields.io/github/issues-pr/iexbase/stabila-api-python.svg
-            :target: https://github.com/iexbase/stabila-api-python/pulls
+        .. image:: https://img.shields.io/github/issues-pr/stabilaclick/stabila-api-python.svg
+            :target: https://github.com/stabilaclick/stabila-api-python/pulls
         
         .. image:: https://api.codacy.com/project/badge/Grade/8a5ae1e1cc834869b1094ea3b0d24f78
            :alt: Codacy Badge
-           :target: https://app.codacy.com/app/serderovsh/stabila-api-python?utm_source=github.com&utm_medium=referral&utm_content=iexbase/stabila-api-python&utm_campaign=Badge_Grade_Dashboard
+           :target: https://app.codacy.com/app/serderovsh/stabila-api-python?utm_source=github.com&utm_medium=referral&utm_content=stabilaclick/stabila-api-python&utm_campaign=Badge_Grade_Dashboard
             
         
         ------------
@@ -156,7 +156,7 @@ Description: ===================
             logger.debug('Block Number: 32162')
             logger.debug('- Events: ' + json.dumps(event_result, indent=2))
         
-        More samples and snippets are available at `examples <https://github.com/iexbase/stabila-api-python/tree/master/examples>`__.
+        More samples and snippets are available at `examples <https://github.com/stabilaclick/stabila-api-python/tree/master/examples>`__.
         
         Documentation
         =============
@@ -170,7 +170,7 @@ Description: ===================
         STABILA: TRWBqiqoFZysoAeyR1J35ibuyc8EvhUAoY
         
         
-Keywords: stabila stabila-api stabila-api-python iexbase
+Keywords: stabila stabila-api stabila-api-python stabilaclick
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers

@@ -1,5 +1,5 @@
 # --------------------------------------------------------------------
-# Copyright (c) iEXBase. All rights reserved.
+# Copyright (c) stabilaclick. All rights reserved.
 # Licensed under the MIT License.
 # See License.txt in the project root for license information.
 # --------------------------------------------------------------------
@@ -10,7 +10,7 @@
 
     Work with basic methods
 
-    :copyright: © 2018 by the iEXBase.
+    :copyright: © 2018 by the stabilaclick.
     :license: MIT License
 """
 
