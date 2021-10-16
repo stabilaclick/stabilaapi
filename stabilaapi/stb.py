@@ -653,7 +653,7 @@ class Stb(Module):
         message_hash = self.stabila.keccak(text=header+message)
         recovered = Account.recover_hash(self.stabila.toHex(message_hash), signed_message.signature)
 
-        stabila_address = '41' + recovered[2:]
+        stabila_address = '3F' + recovered[2:]
         base58address = self.stabila.address.from_hex(stabila_address).decode()
 
         if base58address == address:

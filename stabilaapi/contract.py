@@ -227,7 +227,7 @@ class Contract:
         Example:
         .. code-block:: python
             >>> MyContract.deploy(
-                fee_limit=10**9,
+                fee_limit=10**6,
                 call_value=0,
                 consume_user_resource_percent=10
             )

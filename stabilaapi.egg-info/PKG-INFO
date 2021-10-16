@@ -104,7 +104,7 @@ Description: ==============================
         
             # Submit the transaction that deploys the contract
             tx = hello.deploy(
-                fee_limit=10**9,
+                fee_limit=10**6,
                 call_value=0,
                 consume_user_resource_percent=1
             )
@@ -167,7 +167,7 @@ Description: ==============================
         Donations
         =============
         
-        STABILA: 27UbeUdgTpKMGp2R32nke7TFrnS1pXEwkhD
+        STABILA:
         
         
 Keywords: stabila stabila-api stabila-api-python

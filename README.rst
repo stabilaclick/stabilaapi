@@ -1,5 +1,5 @@
 ==============================
-STABILA API for Python V 1.0.0
+STABILA API for Python V 1.0.3
 ==============================
 
 A Python API for interacting with the Stabila (STB)
@@ -96,7 +96,7 @@ Smart Contract
 
     # Submit the transaction that deploys the contract
     tx = hello.deploy(
-        fee_limit=10**9,
+        fee_limit=10**6,
         call_value=0,
         consume_user_resource_percent=1
     )
@@ -140,10 +140,10 @@ Base Example
     logger.debug('-----------')
     
     # Events
-    event_result = stabila.stb.get_event_result('TGEJj8eus46QMHPgWQe1FJ2ymBXRm96fn1', 0, 'Notify')
+    event_result = stabila.stb.get_event_result('SGEJj8eus46QMHPgWQe1FJ2ymBXRm96fn1', 0, 'Notify')
 
     logger.debug('Event result:')
-    logger.debug('Contract Address: TGEJj8eus46QMHPgWQe1FJ2ymBXRm96fn1')
+    logger.debug('Contract Address: SGEJj8eus46QMHPgWQe1FJ2ymBXRm96fn1')
     logger.debug('Event Name: Notify')
     logger.debug('Block Number: 32162')
     logger.debug('- Events: ' + json.dumps(event_result, indent=2))
@@ -159,5 +159,5 @@ Documentation is available at `docs <https://stabilaapi-for-python.readthedocs.i
 Donations
 =============
 
-STABILA: 27UbeUdgTpKMGp2R32nke7TFrnS1pXEwkhD
+STABILA:
 
